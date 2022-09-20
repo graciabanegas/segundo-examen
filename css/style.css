@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	background-color: #000000;
+}
+header{
+	background-color: #212121;
+}
+footer{
+	background-color: #000;
+	color: #acbad4;
+	padding: 30px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+#hero  h1{
+	text-align: left;
+	font-weight: 1000;
+	color: #fff;
+	font-size: 70px;
+	position: relative;
+	top: -85px;
+}
+
+#hero h2{
+	text-align: left;
+	position: relative;
+	top: -85px;
+	font-weight: 800;
+	font-size: 45px;
+	font-style: italic;
+}
+
+
+.overlay{
+	background-color: rgba(243,54,0,0.70);
+	padding: 10% 0;
+}
+
+
+#hero .overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#hero .carousel-caption {
+	z-index: 2;
+}
+
+
+.titulo{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 2%;
+}
+
+#intro p{
+	text-align: center;
+	color: #7D7D7D;
+	
+	font-size: 14px;
+}
+
+
+#intro{
+	padding: 60px 0;
+	background-color: #000000;
+	text-align: center;
+}
+
+
+#intro h2{
+	margin-top: 6%;
+}
+.btn-events{
+	background-color: #000000;
+	border: solid thin;
+	border-color: #BABABA;
+	border-radius: 0;
+	color:#BABABA;
+	text-align: center;
+	padding: 10px 40px;
+	font-weight: 600;
+	margin-top: 3%;
+	margin-bottom: 7%;
+}
+
+
+.btn-events:hover{
+	color: #000000;
+	background-color: #BABABA;
+}
+
+
+#gallery{
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+}
+
+#gallery img{
+	height: 250px;
+	width: 350px;
+}
+
+#gang {
+	background-color: #000000;
+	padding: 40px;
+	text-align: center;
+	margin-top: 8%;
+}
+
+
+
+#gang img{
+	border: solid thin #BABABA;
+	border-radius: 10px;
+}
+
+
+#gang h5{
+	font-size: 16px;
+	margin-top: 3%;
+}
+
+#gang h6{
+	font-size: 14px;
+	color: #BABABA;
+}
+
+#gang p{
+	font-size: 12px;
+	color: #BABABA;
+}
+
+.social{
+	color: #F33600;
+	border: solid thin #F33600;
+	font-size: 16px;
+	text-align: center;
+	padding: 8px;
+}
+
+
+.social:hover{
+	color: #fff;
+	background-color:#F33600; 
+}
